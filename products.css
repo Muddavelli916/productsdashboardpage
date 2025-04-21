@@ -257,10 +257,9 @@ nav {
 
 .card1 {
     background:white; /* Light blue background */
-    
+    width:300px;
     border-radius: 12px;
     box-shadow: 2px 2px 10px rgba(200, 200, 200, 0.3);
-   
     text-align: center;
     position: relative;
     min-height: 200px; /* Ensures enough space */
@@ -283,6 +282,7 @@ nav {
     font-size: 16px;
     color: #555;
     margin: 6px 0;
+    textalign:left;
 }
 
 .card1 .edit-btn {
@@ -366,7 +366,7 @@ nav {
 }
 .card2 {
     background: white;
-   
+    width:300px;
     border-radius: 8px;
     text-align: center;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -402,7 +402,7 @@ nav {
 .card3 {
     background: white;
     border-radius: 8px;
-    
+    width:300px;
     text-align: center;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     position: relative;
