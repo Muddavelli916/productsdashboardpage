@@ -96,6 +96,8 @@
   width: calc(100% - 200px);
   left: 200px;
   transition: all 0.5s ease;
+  overflow-y:auto;
+  height:100vh;
 }
 
 .sidebar.active ~ .home-section {
